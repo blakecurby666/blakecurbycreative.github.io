@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blake Curby Creative</title>
+  <title>Contact - Blake Curby Creative</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Blake Curby Creative</h1>
-    <h2>Sydney based Photographer, Videographer and Graphic Designer</h2>
     <nav>
       <a href="index.html">Home</a>
       <a href="portfolio.html">Portfolio</a>
@@ -20,8 +19,13 @@
   </header>
 
   <main>
-    <h2>Welcome</h2>
-    <p>Capturing moments that matter — from live music and weddings to commercial storytelling.</p>
+    <h2>Contact</h2>
+    <form action="mailto:blake.curby@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send</button>
+    </form>
 
     <div class="call-to-action">
       <a href="mailto:blake.curby@gmail.com" style="color: white; text-decoration: none;">Email Blake</a>
