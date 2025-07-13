@@ -1,0 +1,118 @@
+/* GLOBAL STYLES */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #1a1a1a; /* very dark grey */
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600; /* SemiBold for headings */
+}
+
+h4, h5, h6 {
+  font-weight: 500; /* Medium for subheadings */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  background: #f9f9f9;
+}
+
+footer img {
+  filter: grayscale(100%);
+  margin-top: 0.5rem;
+}
+
+/* FORM STYLING */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* SERVICES PAGE */
+.services-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.services-columns div {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.services-columns h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.services-columns ul li {
+  margin-bottom: 0.25rem;
+}
