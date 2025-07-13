@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;600&family=Playfair+Display:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Spline Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   color: #1a1a1a;
   background-color: #ffffff;
 }
 
-header, footer {
-  background: #f4f4f4;
-  padding: 1rem;
-  text-align: center;
+header h1, h2 {
+  font-weight: 600; /* SemiBold for Headings */
 }
 
-header h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-  margin: 0.5em 0;
+h3, h4 {
+  font-weight: 500; /* Medium for Subheadings */
 }
 
 nav a {
