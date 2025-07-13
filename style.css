@@ -42,7 +42,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: #666;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* MAIN CONTENT */
@@ -80,9 +80,10 @@ main {
   display: block;
   max-width: 220px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 0;
 }
 .about-bio {
+  margin-top: 0;
   max-width: 400px;
   font-size: 1.05rem;
   line-height: 1.7;
