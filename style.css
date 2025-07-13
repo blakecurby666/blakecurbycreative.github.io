@@ -1,0 +1,183 @@
+/* GLOBAL STYLES */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* LOGO */
+.site-logo {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.site-logo img {
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  background: none;
+  border: none;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  padding: 0.5rem 0;
+  color: #1a1a1a;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem 1rem;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* ABOUT PAGE FLEX LAYOUT */
+.about-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 3rem auto 0 auto;
+  max-width: 700px;
+}
+.about-image img {
+  display: block;
+  max-width: 220px;
+  height: auto;
+  border-radius: 0;
+}
+.about-bio {
+  margin-top: 0;
+  max-width: 400px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* SERVICES PAGE */
+.services-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+.services-columns div {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+.services-columns h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.services-columns ul li {
+  margin-bottom: 0.25rem;
+}
+
+/* FORM STYLING */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #333;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+footer img {
+  filter: grayscale(100%);
+  margin-top: 0.5rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+  .about-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-bio {
+    max-width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  main {
+    padding: 1rem 0.5rem 2rem 0.5rem;
+  }
+  .services-columns {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
